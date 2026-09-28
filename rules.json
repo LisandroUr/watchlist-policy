@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-27T00:00:00Z",
+  "description": "Reglas de autodetección dinámicas para WatchlistPlus",
+  "rules": [
+    {
+      "id": "cuevana3-hash-spa",
+      "name": "Cuevana 3 SPA HashRouter",
+      "domains": ["cuevana3.gs", "cuevana.be", "cuevana3.ch"],
+      "regex": "#/serie/(?:\\d+)/temporada/(\\d+)/episodio/(\\d+)",
+      "target": "hash",
+      "seasonGroup": 1,
+      "episodeGroup": 2
+    },
+    {
+      "id": "animeflv-ver",
+      "name": "AnimeFLV Capítulos",
+      "domains": ["animeflv.net", "animeflv.to"],
+      "regex": "/ver/([^/]+)-(\\d+)$",
+      "target": "path",
+      "slugGroup": 1,
+      "episodeGroup": 2
+    },
+    {
+      "id": "tioanime-ver",
+      "name": "TioAnime Capítulos",
+      "domains": ["tioanime.com"],
+      "regex": "/ver/([^/]+)-(\\d+)$",
+      "target": "path",
+      "slugGroup": 1,
+      "episodeGroup": 2
+    },
+    {
+      "id": "generic-season-ep",
+      "name": "Patrón Universal Temporada y Episodio",
+      "domains": ["*"],
+      "regex": "(?:temporada|season|s)[-/]?(\\d+)[^/]+(?:capitulo|episodio|ep|episode)[-/]?(\\d+)",
+      "target": "path",
+      "seasonGroup": 1,
+      "episodeGroup": 2
+    }
+  ]
+}
