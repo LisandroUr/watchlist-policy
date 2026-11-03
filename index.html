@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad / Privacy Policy — Watchlist+</title>
+  <meta name="description" content="Política de privacidad oficial y transparente de Watchlist+ para la Chrome Web Store.">
+  <link rel="icon" href="https://raw.githubusercontent.com/LisandroUr/watchlist-policy/main/icon128.png" type="image/png">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --accent: #58a6ff;
+      --code-bg: #1f242c;
+      --table-header: #21262d;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      margin: 0;
+      padding: 30px 15px;
+    }
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px 45px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      box-shadow: 0 16px 36px rgba(0,0,0,0.55);
+    }
+    @media (max-width: 768px) {
+      .container { padding: 25px 20px; }
+    }
+    h1 {
+      font-size: 2.1rem;
+      color: var(--heading);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.4em;
+      margin-top: 0;
+    }
+    h2 {
+      font-size: 1.55rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3em;
+      margin-top: 2.2em;
+    }
+    h3 {
+      font-size: 1.22rem;
+      color: var(--heading);
+      margin-top: 1.6em;
+    }
+    p, li {
+      font-size: 1rem;
+      color: var(--text);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: var(--border);
+      margin: 2.2em 0;
+    }
+    code {
+      background: var(--code-bg);
+      padding: 3px 7px;
+      border-radius: 5px;
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.9em;
+      color: #79c0ff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.8em 0;
+      font-size: 0.94em;
+      overflow-x: auto;
+      display: block;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 12px 14px;
+      text-align: left;
+    }
+    th {
+      background: var(--table-header);
+      color: var(--heading);
+      font-weight: 600;
+    }
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    ul, ol {
+      padding-left: 28px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .badge-bar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      background: rgba(88, 166, 255, 0.12);
+      border: 1px solid rgba(88, 166, 255, 0.35);
+      color: var(--accent);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.85em;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .nav-tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 25px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+    .nav-tab-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border);
+      color: var(--text);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+    .nav-tab-btn:hover {
+      background: rgba(88, 166, 255, 0.2);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge-bar">
+      <span class="badge">🔒 Local-First Architecture</span>
+      <span class="badge">🛡️ Zero User Tracking / No Analytics</span>
+      <span class="badge">✅ Chrome Web Store Fully Compliant</span>
+      <span class="badge">📦 Manifest V3</span>
+    </div>
+
+    <h1>Política de Privacidad / Privacy Policy — Watchlist+</h1>
+
+<p><em>Última actualización / Last updated: Noviembre 2026 (Versión 1.1.7)</em></p>
+
+<hr>
+
+<h2>🇪🇸 Español (Spanish)</h2>
+
+<h3>Introducción y Filosofía "Privacy-First"</h3>
+**Watchlist+** es una extensión de navegador de código abierto diseñada para registrar, organizar y llevar el seguimiento del progreso de visualización de series, anime y películas en cualquier sitio web de forma local y privada.
+
+<p>Nuestra filosofía fundamental es que <strong>tus datos te pertenecen exclusivamente a ti</strong>. Watchlist+ opera bajo una arquitectura de almacenamiento local preferente (<em>Local-First</em>). Esta Política de Privacidad describe de manera transparente y detallada nuestras prácticas con respecto a la <strong>recopilación, manipulación, almacenamiento y uso compartido</strong> de los datos del usuario, de conformidad estricta con las Políticas del Programa para Desarrolladores de Chrome Web Store.</p>
+
+<hr>
+
+<h3>1. Recopilación de Datos del Usuario (Data Collection)</h3>
+Watchlist+ recopila y procesa únicamente la información estrictamente necesaria para brindar sus funcionalidades de seguimiento:
+
+<ol>
+  <li><strong>Datos generados directamente por el usuario:</strong></li>
+  <li>Títulos de series, animes, películas y páginas web agregadas a la colección.</li>
+  <li>Conteo de capítulos vistos, total de episodios y estado de visualización (<em>viendo</em>, <em>terminada</em>, <em>pausada</em>, <em>abandonada</em>, <em>por ver</em>).</li>
+  <li>Conjuntos (carpetas), separadores visuales, fechas de estreno, valoraciones personales y notas personalizadas.</li>
+  <li>Nombres y fotos de avatar de perfiles locales creados en la extensión.</li>
+  <li>Preferencias de interfaz (tema visual, fondo personalizado, configuración de carátulas).</li>
+</ol>
+
+<ol>
+  <li><strong>Datos de pestañas y navegación (Pestaña Activa):</strong></li>
+  <li>Cuando el usuario navega en sitios web o reproductores de video compatibles, el script de contenido (<code>content.js</code>) inspecciona el título de la página web (<code>document.title</code>) y la URL actual de la pestaña activa con el único propósito de identificar si coincide con una serie guardada y extraer el número de capítulo actual.</li>
+  <li><strong>Alcance limitado:</strong> Esta lectura opera exclusivamente en la pestaña que el usuario está visualizando activamente. No se registra un historial general de navegación.</li>
+</ol>
+
+<ol>
+  <li><strong>Datos de identidad y autenticación (OAuth 2.0 — Opcional):</strong></li>
+  <li>Si el usuario decide activar voluntariamente la sincronización con Google Drive o validar su suscripción PRO, la extensión solicita acceso mediante <code>chrome.identity</code>.</li>
+  <li>Se procesa la dirección de correo electrónico asociada a la cuenta de Google del usuario para identificar la cuenta y autenticar las copias de seguridad.</li>
+</ol>
+
+<ol>
+  <li><strong>Claves de API y credenciales provistas por el usuario (Opcional):</strong></li>
+  <li>Si el usuario decide utilizar las funciones de Inteligencia Artificial (asistente Kuro-Byte, recomendaciones y resúmenes anti-spoilers), puede ingresar su propia clave de API gratuita de Google AI Studio (Gemini). Dicha clave se guarda exclusivamente en el almacenamiento local del navegador del usuario.</li>
+</ol>
+
+<ol>
+  <li><strong>Datos que Watchlist+ NUNCA recopila:</strong></li>
+  <li><strong>NO</strong> recopilamos contraseñas ni datos bancarios.</li>
+  <li><strong>NO</strong> recopilamos historiales completos de navegación ni historiales de búsqueda.</li>
+  <li><strong>NO</strong> recopilamos direcciones IP, geolocalización física ni huellas digitales del dispositivo (<em>device fingerprinting</em>).</li>
+  <li><strong>NO</strong> recopilamos contenido multimedia ni grabamos transmisiones de video.</li>
+</ol>
+
+<hr>
+
+<h3>2. Manipulación y Uso de los Datos (Data Handling and Use)</h3>
+Los datos recopilados se manipulan y utilizan exclusivamente para los siguientes propósitos operativos:
+
+<ol>
+  <li><strong>Detección automática y actualización del progreso:</strong></li>
+  <li>La URL y el título de la página del video se analizan en la memoria local del navegador mediante patrones de expresiones regulares para detectar expresiones como <em>"Episodio 12"</em> o <em>"Capítulo 5"</em>. Si hay coincidencia, se actualiza el contador de episodios vistos en la biblioteca local del usuario.</li>
+</ol>
+
+<ol>
+  <li><strong>Organización, búsqueda y visualización:</strong></li>
+  <li>Los títulos y metadatos guardados se indexan localmente para permitir filtrado por categorías, búsqueda instantánea por texto, cálculo de estadísticas de tiempo invertido y generación de calendarios de emisión semanales.</li>
+</ol>
+
+<ol>
+  <li><strong>Sincronización de respaldos en la nube (Google Drive — Opcional):</strong></li>
+  <li>Cuando el usuario inicia una copia de seguridad, la extensión empaqueta la biblioteca en formato JSON (<code>profile_${id}.json</code>) y la transfiere directamente a la carpeta privada de aplicación del usuario en Google Drive (<code>drive.appdata</code>).</li>
+</ol>
+
+<ol>
+  <li><strong>Validación de licencias PRO y notificaciones de Telegram (Opcional):</strong></li>
+  <li>Para verificar suscripciones PRO adquiridas mediante Ko-fi, se envía el correo electrónico del usuario mediante HTTPS a un endpoint de Google Apps Script gestionado por el desarrollador para contrastar la licencia.</li>
+  <li>Para las alertas móviles de Telegram (opcional), se envía un identificador pseudoanónimo de chat y la lista de títulos seguidos para programar el envío de alertas de estreno.</li>
+</ol>
+
+<ol>
+  <li><strong>Consultas a Inteligencia Artificial (Google Gemini — Opcional):</strong></li>
+  <li>Si el usuario solicita una recomendación o resumen anti-spoilers, se envía el prompt y únicamente los títulos relevantes de su biblioteca directamente a los servidores oficiales de Google AI (<code>generativelanguage.googleapis.com</code>) usando la clave del usuario. No se transmiten datos personales identificables.</li>
+</ol>
+
+<ol>
+  <li><strong>Consultas a metadatos públicos de sólo lectura (AniList, TVmaze, Wikipedia):</strong></li>
+  <li>La extensión envía consultas de texto anónimas con el nombre de la serie a APIs públicas para obtener carátulas oficiales, días de emisión y traducción de títulos internacionales. Estas consultas no envían datos del usuario.</li>
+</ol>
+
+<hr>
+
+<h3>3. Almacenamiento, Retención y Seguridad de los Datos (Data Storage, Retention, and Security)</h3>
+
+<ol>
+  <li><strong>Almacenamiento Local (Local-First):</strong></li>
+  <li>Todos los datos de la biblioteca, historial de episodios y configuraciones se almacenan directamente en el equipo del usuario a través de la API estándar <code>chrome.storage.local</code>.</li>
+  <li>Este almacenamiento se encuentra aislado dentro del sandbox de extensiones del navegador y está protegido por los mecanismos de seguridad nativos de Chromium / Chrome.</li>
+</ol>
+
+<ol>
+  <li><strong>Almacenamiento en la Nube (Google Drive):</strong></li>
+  <li>Los respaldos en la nube se almacenan exclusivamente en el espacio <code>drive.appdata</code> de la cuenta de Google del usuario. Esta área es privada y oculta: ningún tercero ni ninguna otra aplicación de Google Drive tiene acceso a dichos archivos, excepto Watchlist+.</li>
+</ol>
+
+<ol>
+  <li><strong>Período de Retención:</strong></li>
+  <li>Los datos locales se conservan indefinidamente en el dispositivo del usuario mientras la extensión esté instalada, garantizando la persistencia de su historial de visualización.</li>
+  <li>Si el usuario desinstala la extensión o borra los datos de navegación, todos los datos locales almacenados en <code>chrome.storage.local</code> se eliminan de manera permanente e irrecuperable de forma inmediata.</li>
+</ol>
+
+<ol>
+  <li><strong>Medidas de Seguridad:</strong></li>
+  <li>Todas las comunicaciones con servicios externos (Google Drive, Google AI Studio, Google Apps Script, AniList, TVmaze, Wikipedia) se realizan a través de canales cifrados mediante protocolo HTTPS / TLS 1.3.</li>
+  <li>No se almacenan credenciales ni contraseñas en texto plano. Los tokens OAuth se gestionan de forma segura a través del subsistema <code>chrome.identity</code>.</li>
+</ol>
+
+<hr>
+
+<h3>4. Uso Compartido y Divulgación a Terceros (Data Sharing and Third-Party Disclosure)</h3>
+
+<ol>
+  <li><strong>Compromiso Estricto de No Venta ni Comercialización:</strong></li>
+  <li><strong>Watchlist+ NO vende, NO alquila, NO comercializa ni transfiere datos personales, historial de navegación o información del usuario a corredores de datos (<em>data brokers</em>), redes publicitarias, empresas de análisis de mercado ni anunciantes.</strong></li>
+  <li><strong>Los datos del usuario NUNCA se utilizan con fines de segmentación publicitaria, calificación crediticia o telemetría invasiva.</strong></li>
+</ol>
+
+<p>2. <strong>Divulgaciones a Proveedores de Servicios Autorizados:</strong>
+   La extensión únicamente transfiere información técnica hacia servicios de terceros indispensables cuando el usuario invoca explícitamente las siguientes funcionalidades:</p>
+
+<table>
+  <tr><th>Destinatario / Servicio</th><th>Tipo de Dato Transferido</th><th>Propósito Exclusivo</th></tr>
+  <tr><td><strong>Google Drive API</strong> (<code>googleapis.com</code>)</td><td>Archivo de respaldo JSON con la biblioteca del usuario</td><td>Guardar y restaurar copias de seguridad en la nube privada del propio usuario.</td></tr>
+  <tr><td><strong>Google Apps Script</strong> (<code>script.google.com</code>)</td><td>Dirección de correo electrónico de Google del usuario</td><td>Validar la validez de licencias del plan PRO adquiridas por el usuario.</td></tr>
+  <tr><td><strong>Google Generative Language API</strong> (<code>generativelanguage.googleapis.com</code>)</td><td>Texto de consulta y títulos de series seleccionados</td><td>Generar recomendaciones y resúmenes sin spoilers mediante la clave provista por el usuario.</td></tr>
+  <tr><td><strong>AniList GraphQL API</strong> (<code>graphql.anilist.co</code>)</td><td>Título público de anime consultado</td><td>Obtener fecha y hora de emisión y metadatos oficiales (consulta anónima de sólo lectura).</td></tr>
+  <tr><td><strong>TVmaze REST API</strong> (<code>api.tvmaze.com</code>)</td><td>Título público de serie de TV consultado</td><td>Obtener calendario de emisión y cadenas televisivas (consulta anónima de sólo lectura).</td></tr>
+  <tr><td><strong>Wikipedia API</strong> (<code>es.wikipedia.org</code>)</td><td>Título de la obra en español</td><td>Obtener el título canónico en inglés mediante enlace inter-idioma (consulta anónima de sólo lectura).</td></tr>
+  <tr><td><strong>Telegram Bot API</strong> (<code>api.telegram.org</code>)</td><td>ID de chat de Telegram y mensaje de texto</td><td>Enviar avisos de nuevos episodios estrenados si el usuario vinculó su cuenta.</td></tr>
+</table>
+
+<hr>
+
+<h3>5. Derechos del Usuario y Eliminación de Datos (User Rights and Data Deletion)</h3>
+En cumplimiento de las normativas de privacidad globales (GDPR, CCPA) y las directivas de Chrome Web Store, todo usuario de Watchlist+ tiene control absoluto sobre sus datos:
+
+<ol>
+  <li><strong>Derecho de Acceso y Portabilidad:</strong></li>
+  <li>El usuario puede descargar en cualquier momento una copia íntegra de todos sus datos almacenados en formato estándar <code>.json</code> haciendo clic en el botón <strong>"Exportar"</strong> dentro de la biblioteca.</li>
+</ol>
+
+<ol>
+  <li><strong>Derecho de Supresión y Eliminación Total:</strong></li>
+  <li><strong>Eliminación local:</strong> El usuario puede eliminar todos sus datos locales en cualquier momento desde los Ajustes de la extensión haciendo clic en <em>"Eliminar todos los datos"</em> o simplemente desinstalando Watchlist+ de su navegador (lo que elimina el 100% de <code>chrome.storage.local</code>).</li>
+  <li><strong>Eliminación en la nube:</strong> El usuario puede eliminar sus copias de seguridad de Google Drive en cualquier momento desde el menú de sincronización de la extensión, o desde <code>https://drive.google.com</code> ingresando en <em>Configuración → Administrar aplicaciones → Watchlist+ → Eliminar datos de aplicación ocultos</em>.</li>
+</ol>
+
+<ol>
+  <li><strong>Revocación de Permisos de Autenticación:</strong></li>
+  <li>El usuario puede revocar el acceso de Watchlist+ a su cuenta de Google en cualquier momento ingresando en la página oficial de seguridad de Google: <code>https://myaccount.google.com/permissions</code>.</li>
+</ol>
+
+<hr>
+
+<h3>6. Permisos del Navegador y Justificación Detallada (Permissions Justification)</h3>
+Watchlist+ aplica el principio de privilegios mínimos. A continuación se justifica cada permiso solicitado en `manifest.json`:
+
+<table>
+  <tr><th>Permiso</th><th>Propósito Técnico y Justificación</th></tr>
+  <tr><td><code>storage</code> / <code>unlimitedStorage</code></td><td>Permite guardar localmente tu biblioteca, listas de capítulos, notas y configuraciones dentro del navegador del usuario sin bloqueos de cuota de disco.</td></tr>
+  <tr><td><code>tabs</code> / <code>activeTab</code></td><td>Permite leer la URL y el título de la pestaña activa en sitios de reproducción de video para reconocer el episodio y actualizar el contador de forma automática. No supervisa pestañas no activas ni registra navegación general.</td></tr>
+  <tr><td><code>notifications</code></td><td>Permite emitir notificaciones locales del sistema cuando se confirma el respaldo automático o cuando se estrena un capítulo programado en el calendario.</td></tr>
+  <tr><td><code>alarms</code></td><td>Permite programar de forma eficiente la ejecución periódica de los respaldos automáticos y la comprobación de estrenos sin gastar recursos de CPU continuamente.</td></tr>
+  <tr><td><code>downloads</code></td><td>Permite descargar los archivos de respaldo <code>.json</code> directamente en la carpeta de Descargas del usuario al pulsar "Exportar".</td></tr>
+  <tr><td><code>identity</code></td><td>Utilizado exclusivamente para iniciar el flujo seguro de autenticación OAuth 2.0 con Google para sincronización con Google Drive y comprobación de licencias PRO.</td></tr>
+  <tr><td><code>host_permissions</code> (<code><all_urls></code>)</td><td>Necesario para inyectar el script de detección (<code>content.js</code>) en reproductores y portales de video abiertos de cualquier dominio web, permitiendo detectar series sin restringirse a sitios predefinidos. No se recopilan datos de páginas que no reproduzcan video.</td></tr>
+</table>
+
+<hr>
+
+<h3>7. Privacidad de Menores</h3>
+Watchlist+ no está dirigida a menores de 13 años y no recopila a sabiendas ningún tipo de información identificable de niños. Si un padre o tutor tiene conocimiento de que sus datos fueron provistos, puede solicitar su eliminación inmediata contactándonos.
+
+<hr>
+
+<h3>8. Contacto</h3>
+Para cualquier duda, solicitud de derechos de privacidad o consulta sobre el tratamiento de datos, puedes comunicarte a través de:
+- **Repositorio oficial de soporte:** [https://github.com/LisandroUr/watchlist-policy](https://github.com/LisandroUr/watchlist-policy)
+- **Contacto del Desarrollador:** A través de la página oficial de soporte en la Chrome Web Store.
+
+<hr>
+<hr>
+
+<h2>🇬🇧 English</h2>
+
+<h3>Overview & "Privacy-First" Philosophy</h3>
+**Watchlist+** is an open-source browser extension designed to track, organize, and manage watch progress for series, anime, and movies across any website locally and privately.
+
+<p>Our core principle is simple: <strong>your data belongs exclusively to you</strong>. Watchlist+ operates under a strict <em>Local-First</em> architecture. This Privacy Policy comprehensively and transparently discloses our practices regarding the <strong>collection, handling, storage, and sharing</strong> of user data, fully compliant with the Chrome Web Store Developer Program Policies.</p>
+
+<hr>
+
+<h3>1. User Data Collection</h3>
+Watchlist+ collects and handles only the data strictly required to deliver its core tracking and organization features:
+
+<ol>
+  <li><strong>Direct User-Generated Data:</strong></li>
+  <li>Titles of series, anime, movies, and custom web pages saved to your collection.</li>
+  <li>Watched episode counts, total episode numbers, and watch status (<em>watching</em>, <em>completed</em>, <em>on-hold</em>, <em>dropped</em>, <em>plan-to-watch</em>).</li>
+  <li>Folder sets, separators, release schedules, personal ratings, and custom notes.</li>
+  <li>User profile names and local avatar images.</li>
+  <li>Interface preferences (theme colors, custom wallpapers, cover layout choices).</li>
+</ol>
+
+<ol>
+  <li><strong>Active Tab & Browsing Data:</strong></li>
+  <li>While the user actively watches video content on streaming platforms, the content script (<code>content.js</code>) inspects the current active tab's page title (<code>document.title</code>) and current page URL solely to detect matches against tracked titles and parse the episode number.</li>
+  <li><strong>Strictly Limited Scope:</strong> Only the currently active foreground tab is inspected. General browsing history is never recorded, captured, or transmitted.</li>
+</ol>
+
+<ol>
+  <li><strong>Authentication & Identity Data (OAuth 2.0 — Optional):</strong></li>
+  <li>If the user voluntarily enables Google Drive sync or verifies their PRO subscription, the extension requests authorization through <code>chrome.identity</code>.</li>
+  <li>The user's Google account email address is processed to authenticate the session and verify cloud backups.</li>
+</ol>
+
+<ol>
+  <li><strong>User-Provided API Keys & Credentials (Optional):</strong></li>
+  <li>If the user enables optional AI features (Kuro-Byte AI assistant, smart recommendations, and spoiler-free recaps), they may provide their own free Google AI Studio (Gemini) API key. This key is stored strictly within the user's local browser storage.</li>
+</ol>
+
+<ol>
+  <li><strong>Data Watchlist+ NEVER Collects:</strong></li>
+  <li>We <strong>DO NOT</strong> collect passwords or payment details.</li>
+  <li>We <strong>DO NOT</strong> collect broad browsing history or search history.</li>
+  <li>We <strong>DO NOT</strong> collect IP addresses, physical geolocation, or device fingerprints.</li>
+  <li>We <strong>DO NOT</strong> capture media content or record streaming video streams.</li>
+</ol>
+
+<hr>
+
+<h3>2. Data Handling and Usage</h3>
+All data handled by Watchlist+ is processed exclusively for the following functional purposes:
+
+<ol>
+  <li><strong>Automated Progress Tracking:</strong></li>
+  <li>Active tab URLs and page titles are evaluated locally in memory using regular expressions to extract terms like <em>"Episode 12"</em> or <em>"Chapter 5"</em>. Upon a match, the episode count is updated in the user's local library.</li>
+</ol>
+
+<ol>
+  <li><strong>Library Organization, Search, and Analytics:</strong></li>
+  <li>Saved titles and metadata are indexed locally to provide instant search filtering, watch time statistics, and weekly release calendar schedules.</li>
+</ol>
+
+<ol>
+  <li><strong>Cloud Backup Synchronization (Google Drive — Optional):</strong></li>
+  <li>When the user initiates a backup, the library data is packaged into JSON format (<code>profile_${id}.json</code>) and transmitted directly to the user's private Google Drive application folder (<code>drive.appdata</code>).</li>
+</ol>
+
+<ol>
+  <li><strong>PRO License Verification & Telegram Alerts (Optional):</strong></li>
+  <li>For users with a PRO license purchased via Ko-fi, the user's email address is transmitted over HTTPS to a Google Apps Script endpoint operated by the developer to verify active license status.</li>
+  <li>For optional Telegram mobile alerts, a pseudo-anonymous chat ID and airing watchlist are synced to deliver release notifications.</li>
+</ol>
+
+<ol>
+  <li><strong>AI Assistant Processing (Google Gemini — Optional):</strong></li>
+  <li>When the user requests a recommendation or recap, the user prompt and relevant library titles are sent directly to official Google AI servers (<code>generativelanguage.googleapis.com</code>) using the user's API key. No personal identity data is attached.</li>
+</ol>
+
+<ol>
+  <li><strong>Public Metadata Queries (AniList, TVmaze, Wikipedia):</strong></li>
+  <li>The extension sends anonymous, read-only text queries to public APIs to retrieve official cover artwork, broadcast air times, and international title translations. No user data is transmitted during these requests.</li>
+</ol>
+
+<hr>
+
+<h3>3. Data Storage, Retention, and Security</h3>
+
+<ol>
+  <li><strong>Local-First Storage:</strong></li>
+  <li>All library records, episode progress, and configurations reside directly on the user's local machine via the standard <code>chrome.storage.local</code> API.</li>
+  <li>This storage is isolated within the browser's extension sandbox and protected by Chromium's native security policies.</li>
+</ol>
+
+<ol>
+  <li><strong>Cloud Storage (Google Drive):</strong></li>
+  <li>Cloud backups reside solely in the user's personal Google Drive <code>drive.appdata</code> space. This area is completely private: no third parties or other Google Drive apps can view or access these files.</li>
+</ol>
+
+<ol>
+  <li><strong>Retention Duration:</strong></li>
+  <li>Local data is retained on the user's device for as long as the extension remains installed.</li>
+  <li>If the user uninstalls the extension or clears their browser storage, all local data stored in <code>chrome.storage.local</code> is immediately, permanently, and irrevocably deleted.</li>
+</ol>
+
+<ol>
+  <li><strong>Security Measures:</strong></li>
+  <li>All external transmissions (Google Drive, Google AI Studio, Google Apps Script, AniList, TVmaze, Wikipedia) occur exclusively over encrypted HTTPS / TLS 1.3 connections.</li>
+  <li>No plaintext passwords or credentials are stored. OAuth tokens are managed securely through the browser's native <code>chrome.identity</code> API.</li>
+</ol>
+
+<hr>
+
+<h3>4. Data Sharing and Third-Party Disclosure</h3>
+
+<ol>
+  <li><strong>Strict No-Sale Commitment:</strong></li>
+  <li><strong>Watchlist+ DOES NOT sell, rent, lease, monetize, or transfer personal data, browsing history, or user records to data brokers, ad networks, analytics firms, or marketing companies.</strong></li>
+  <li><strong>User data is NEVER used for targeted advertising, credit assessment, or commercial telemetry.</strong></li>
+</ol>
+
+<p>2. <strong>Authorized Third-Party Service Providers:</strong>
+   The extension only communicates with third-party service providers when the user explicitly triggers features that require them:</p>
+
+<table>
+  <tr><th>Provider / Service</th><th>Data Transmitted</th><th>Specific Purpose</th></tr>
+  <tr><td><strong>Google Drive API</strong> (<code>googleapis.com</code>)</td><td>JSON library backup file</td><td>Storing and restoring backups in the user's private cloud storage.</td></tr>
+  <tr><td><strong>Google Apps Script</strong> (<code>script.google.com</code>)</td><td>User's Google account email address</td><td>Verifying active PRO license status.</td></tr>
+  <tr><td><strong>Google Generative Language API</strong> (<code>generativelanguage.googleapis.com</code>)</td><td>Search prompt and relevant library titles</td><td>Generating AI recommendations and summaries using the user's API key.</td></tr>
+  <tr><td><strong>AniList GraphQL API</strong> (<code>graphql.anilist.co</code>)</td><td>Anime title query</td><td>Retrieving official airing schedules and genres (anonymous, read-only).</td></tr>
+  <tr><td><strong>TVmaze REST API</strong> (<code>api.tvmaze.com</code>)</td><td>TV series title query</td><td>Retrieving airing schedules and network info (anonymous, read-only).</td></tr>
+  <tr><td><strong>Wikipedia API</strong> (<code>es.wikipedia.org</code>)</td><td>Localized title string</td><td>Translating localized titles to canonical international titles (anonymous, read-only).</td></tr>
+  <tr><td><strong>Telegram Bot API</strong> (<code>api.telegram.org</code>)</td><td>Telegram chat ID and alert message</td><td>Delivering episode release notifications if linked by the user.</td></tr>
+</table>
+
+<hr>
+
+<h3>5. User Rights and Data Deletion</h3>
+In accordance with global privacy frameworks (GDPR, CCPA) and Chrome Web Store policies, users retain complete sovereignty over their data:
+
+<ol>
+  <li><strong>Right to Access & Portability:</strong></li>
+  <li>Users can export a complete, unencrypted copy of all their data in standard <code>.json</code> format at any time by clicking <strong>"Exportar" / "Export"</strong> in the library.</li>
+</ol>
+
+<ol>
+  <li><strong>Right to Erasure & Complete Deletion:</strong></li>
+  <li><strong>Local Deletion:</strong> Users can delete all local data at any time via Settings (<em>"Eliminar todos los datos"</em>) or by simply uninstalling Watchlist+ from their browser (instantly purging 100% of <code>chrome.storage.local</code>).</li>
+  <li><strong>Cloud Deletion:</strong> Users can delete cloud backups at any time through the extension interface or directly via <code>https://drive.google.com</code> under <em>Settings → Manage Apps → Watchlist+ → Delete hidden app data</em>.</li>
+</ol>
+
+<ol>
+  <li><strong>Revocation of Permissions:</strong></li>
+  <li>Users can revoke Google account access at any time by visiting Google's official permissions manager: <code>https://myaccount.google.com/permissions</code>.</li>
+</ol>
+
+<hr>
+
+<h3>6. Browser Permissions & Justification</h3>
+Watchlist+ adheres to the principle of least privilege. Every permission in `manifest.json` is justified below:
+
+<table>
+  <tr><th>Permission</th><th>Technical Purpose & Justification</th></tr>
+  <tr><td><code>storage</code> / <code>unlimitedStorage</code></td><td>Stores watchlist entries, episode counters, notes, and preferences locally in the browser without storage quota limits.</td></tr>
+  <tr><td><code>tabs</code> / <code>activeTab</code></td><td>Inspects the active tab's URL and title on video playback websites to automatically identify the show and increment the episode counter. Non-active tabs are never read.</td></tr>
+  <tr><td><code>notifications</code></td><td>Displays local desktop notifications for automated backup completions and scheduled release reminders.</td></tr>
+  <tr><td><code>alarms</code></td><td>Schedules lightweight background routines for automatic backups and release calendar checks without taxing CPU resources.</td></tr>
+  <tr><td><code>downloads</code></td><td>Downloads exported <code>.json</code> backup files directly to the user's Downloads directory upon request.</td></tr>
+  <tr><td><code>identity</code></td><td>Initiates secure OAuth 2.0 authentication flows with Google for Google Drive backups and PRO license verification.</td></tr>
+  <tr><td><code>host_permissions</code> (<code><all_urls></code>)</td><td>Injects the detection content script (<code>content.js</code>) into open video players across any streaming website, enabling universal show detection without being locked to fixed domains. Pages not playing video are ignored.</td></tr>
+</table>
+
+<hr>
+
+<h3>7. Children's Privacy</h3>
+Watchlist+ is not directed to children under 13 years of age and does not knowingly collect any personally identifiable information from children. If a parent or guardian becomes aware that their child has provided data, they may contact us for immediate deletion.
+
+<hr>
+
+<h3>8. Contact Information</h3>
+For any inquiries, privacy concerns, or data rights requests, please contact us via:
+- **Official Support Repository:** [https://github.com/LisandroUr/watchlist-policy](https://github.com/LisandroUr/watchlist-policy)
+- **Developer Support:** Via the official Chrome Web Store item support page.
+  </div>
+</body>
+</html>
