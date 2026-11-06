@@ -1,6 +1,6 @@
 # Política de Privacidad / Privacy Policy — Watchlist+
 
-*Última actualización / Last updated: Noviembre 2026 (Versión 1.1.7)*
+*Última actualización / Last updated: Noviembre 2026 (Versión 1.1.8)*
 
 ---
 
@@ -9,7 +9,7 @@
 ### Introducción y Filosofía "Privacy-First"
 **Watchlist+** es una extensión de navegador de código abierto diseñada para registrar, organizar y llevar el seguimiento del progreso de visualización de series, anime y películas en cualquier sitio web de forma local y privada.
 
-Nuestra filosofía fundamental es que **tus datos te pertenecen exclusivamente a ti**. Watchlist+ opera bajo una arquitectura de almacenamiento local preferente (*Local-First*). Esta Política de Privacidad describe de manera transparente y detallada nuestras prácticas con respecto a la **recopilación, manipulación, almacenamiento y uso compartido** de los datos del usuario, de conformidad estricta con las Políticas del Programa para Desarrolladores de Chrome Web Store.
+Nuestra filosofía fundamental es que **tus datos te pertenecen exclusivamente a ti**. Watchlist+ opera bajo una arquitectura de almacenamiento local preferente (*Local-First*). Esta Política de Privacidad describe de manera transparente y detallada nuestras prácticas con respecto a la **recopilación, manipulación, almacenamiento y uso compartido** de los datos del usuario, de conformidad estricta con las Políticas del Programa para Desarrolladores de Chrome Web Store. En cumplimiento del requisito de **Divulgación Prominente y Consentimiento Afirmativo (*Prominent Disclosure & Affirmative Consent*)**, Watchlist+ presenta un aviso explícito dentro de la interfaz de la extensión (en el tutorial de bienvenida y en el popup) requiriendo la aceptación consciente del usuario antes de habilitar las funciones de seguimiento.
 
 ---
 
@@ -154,7 +154,7 @@ Para cualquier duda, solicitud de derechos de privacidad o consulta sobre el tra
 ### Overview & "Privacy-First" Philosophy
 **Watchlist+** is an open-source browser extension designed to track, organize, and manage watch progress for series, anime, and movies across any website locally and privately.
 
-Our core principle is simple: **your data belongs exclusively to you**. Watchlist+ operates under a strict *Local-First* architecture. This Privacy Policy comprehensively and transparently discloses our practices regarding the **collection, handling, storage, and sharing** of user data, fully compliant with the Chrome Web Store Developer Program Policies.
+Our core principle is simple: **your data belongs exclusively to you**. Watchlist+ operates under a strict *Local-First* architecture. This Privacy Policy comprehensively and transparently discloses our practices regarding the **collection, handling, storage, and sharing** of user data, fully compliant with the Chrome Web Store Developer Program Policies. In full compliance with Chrome Web Store **Prominent In-UI Disclosure & Affirmative Consent** requirements, Watchlist+ displays an explicit in-app notification upon first launch (in the onboarding flow and popup interface) requiring affirmative user acceptance before watch tracking features are activated.
 
 ---
 
