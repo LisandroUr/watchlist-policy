@@ -104,6 +104,14 @@ Los datos recopilados se manipulan y utilizan exclusivamente para los siguientes
    | **Wikipedia API** (`es.wikipedia.org`) | Título de la obra en español | Obtener el título canónico en inglés mediante enlace inter-idioma (consulta anónima de sólo lectura). |
    | **Telegram Bot API** (`api.telegram.org`) | ID de chat de Telegram y mensaje de texto | Enviar avisos de nuevos episodios estrenados si el usuario vinculó su cuenta. |
 
+3. **Cumplimiento de la Política de Datos de Usuario de las APIs de Google (Requisitos de Uso Limitado / Limited Use):**
+   - El uso y la transferencia a cualquier otra aplicación por parte de **Watchlist+** de la información recibida a través de las APIs de Google (`Google Drive API` / `Google Identity`) se apegará estrictamente a la [Política de Datos de Usuario de los Servicios de API de Google](https://developers.google.com/terms/api-services-user-data-policy), incluidos los requisitos de **Uso Limitado (*Limited Use*)**:
+     - Los datos de usuario de Google obtenidos a través de las APIs se utilizan exclusivamente para proporcionar y mejorar la funcionalidad de respaldo y sincronización privada visible en la interfaz de la extensión.
+     - Los datos de usuario de Google nunca se transfieren a terceros, excepto cuando sea estrictamente necesario para proporcionar la funcionalidad de copia de seguridad solicitada explícitamente por el usuario.
+     - Los datos de usuario de Google nunca se utilizan ni se transfieren para servir anuncios, incluidos anuncios personalizados, basados en intereses o reorientados (*retargeted*).
+     - Los datos de usuario de Google nunca se utilizan para desarrollar, entrenar o mejorar modelos de Inteligencia Artificial (IA) o Aprendizaje Automático (ML) generalizados ni no personalizados.
+     - Ningún ser humano tiene acceso ni lectura a los archivos o datos de Google Drive del usuario a menos que contemos con el consentimiento afirmativo previo del usuario para ese archivo específico.
+
 ---
 
 ### 5. Derechos del Usuario y Eliminación de Datos (User Rights and Data Deletion)
@@ -248,6 +256,14 @@ All data handled by Watchlist+ is processed exclusively for the following functi
    | **TVmaze REST API** (`api.tvmaze.com`) | TV series title query | Retrieving airing schedules and network info (anonymous, read-only). |
    | **Wikipedia API** (`es.wikipedia.org`) | Localized title string | Translating localized titles to canonical international titles (anonymous, read-only). |
    | **Telegram Bot API** (`api.telegram.org`) | Telegram chat ID and alert message | Delivering episode release notifications if linked by the user. |
+
+3. **Google API Services User Data Policy Compliance (Limited Use Requirements):**
+   - **Watchlist+**'s use and transfer to any other app of information received from Google APIs (`Google Drive API` / `Google Identity`) will strictly adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the **Limited Use requirements**:
+     - Google user data accessed through Google APIs is used solely to provide and improve user-facing backup and synchronization features prominently displayed within the extension interface.
+     - Google user data is never transferred to third parties unless strictly necessary to provide the user-requested cloud backup features.
+     - Google user data is never used or transferred for serving advertisements, including personalized, interest-based, or retargeted advertising.
+     - Google user data is never used or transferred to develop, train, or improve generalized or non-personalized Artificial Intelligence (AI) or Machine Learning (ML) models.
+     - No human is permitted to read or access user Google Drive files unless explicit, affirmative user consent is obtained for that specific file.
 
 ---
 
