@@ -1,6 +1,6 @@
 # Política de Privacidad / Privacy Policy — Watchlist+
 
-*Última actualización / Last updated: Noviembre 2026 (Versión 1.1.9)*
+*Última actualización / Last updated: Noviembre 2026 (Versión 1.2.0)*
 
 ---
 
